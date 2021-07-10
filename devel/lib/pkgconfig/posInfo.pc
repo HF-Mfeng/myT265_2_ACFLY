@@ -3,6 +3,6 @@ prefix=/home/pi/T265_2_ACFLY/devel
 Name: posInfo
 Description: Description of posInfo
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/pi/T265_2_ACFLY/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: nav_msgs roscpp rospy sensor_msgs std_msgs tf message_runtime

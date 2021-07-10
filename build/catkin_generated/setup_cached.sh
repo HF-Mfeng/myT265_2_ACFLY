@@ -7,4 +7,10 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/pi/T265_2_ACFLY/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH='/home/pi/T265_2_ACFLY/devel/lib:/home/pi/catkin_ws/devel/lib:/home/pi/catkin_ws_my_vision/install/lib:/home/pi/catkin_ws_realsense/install/lib:/home/pi/catkin_ws_mavros/install/lib:/opt/ros/melodic/lib:/usr/local/lib'
+export PKG_CONFIG_PATH="/home/pi/T265_2_ACFLY/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/pi/T265_2_ACFLY/build'
+export PYTHONPATH='/home/pi/T265_2_ACFLY/devel/lib/python2.7/dist-packages:/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/home/pi/catkin_ws_realsense/install/lib/python2.7/dist-packages:/home/pi/catkin_ws_mavros/install/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages:/usr/local/lib'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/pi/T265_2_ACFLY/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/pi/T265_2_ACFLY/src:$ROS_PACKAGE_PATH"
